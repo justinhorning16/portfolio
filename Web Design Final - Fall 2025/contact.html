@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+	   <meta charset="UTF-8">
+    
+	   <!-- the user's visible area of a webpage -->
+	   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+	   <title>WildSketch Design</title>
+    
+       <!-- Bootstrap CSS -->
+       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+        
+       <!-- Favicon -->
+       <link rel="shortcut icon" type="image/x-icon" href="images/favicon.svg">
+       <!-- Bootswatch CSS -->
+       <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+	   <!-- External Style Sheet -->
+	   <link rel = "stylesheet" href = "css/custom.css">
+	   <!--
+	   WildSketch Design Contact Page for WDD122 Web Design Graphics
+	   Filename: index.html
+	   Author: Justin Horning
+	   Date: 12/8/2025
+	   -->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg" style="background-color: #e3f2fd;" data-bs-theme="light">
+            <div class="container-fluid d-flex justify-content-center align-items-center">
+                <a class="navbar-brand" href="index.html"><img src="images/logo.svg" alt="Logo" width="75" height="75" class="d-inline-block"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navDropdown" aria-controls="navDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse text-center" id="navDropdown">
+                    <ul class="navbar-nav nav-underline">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="container-fluid">
+            <div class="row"><h1 class="display-1 text-center">Contact Us</h1></div>
+            <form class="row g-3">
+                <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-4 offset-md-4">
+                    <label for="inputEmail" class="form-label"><b>Email</b></label>
+                    <input type="email" class="form-control" id="inputEmail" placeholder="wildsketch@email.com">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-4 offset-md-4">
+                    <label for="inputName" class="form-label"><b>Name</b></label>
+                    <input type="email" class="form-control" id="inputName" placeholder="Justin">
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-4 offset-lg-4 offset-md-4">
+                    <label for="inputSubject" class="form-label"><b>Subject</b></label>
+                    <input type="text" class="form-control" id="inputSubject" placeholder="Giraffe Drawing">
+                </div>
+                <label class="form-label offset-lg-4 offset-md-4"><b>Type</b></label>
+                <div class="form-check offset-lg-4 offset-md-4">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadiosType1" value="sketch" checked>
+                    <label class="form-check-label" for="gridRadiosType1">
+                        Sketch
+                    </label>
+                </div>
+                <div class="form-check offset-lg-4 offset-md-4">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadiosType2" value="fullcolor">
+                    <label class="form-check-label" for="gridRadiosType2">
+                        Full-Color
+                    </label>
+                </div>
+                <div class="form-check offset-lg-4 offset-md-4">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadiosType3" value="other">
+                    <label class="form-check-label" for="gridRadiosType3">
+                        Other
+                    </label>
+                </div>
+                <div class="form-floating offset-lg-4 offset-md-4 offset-sm-0">
+                    <textarea id="formMessage" class="form-control" placeholder="Leave a comment here"></textarea>
+                    <label for="formMessage">Message</label>
+                </div>
+                <div class="col-12 text-center">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                </form>
+            <div class="row text-center bg-dark text-white mt-3">
+                <footer class="col"> Copyright &copy; 2025 WildSketch Design Company. All rights reserved. </footer>
+            </div>
+        </div>
+        
+        <!-- Bootstrap JavaScript -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    </body>
+</html>

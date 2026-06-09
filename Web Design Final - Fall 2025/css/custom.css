@@ -1,0 +1,25 @@
+#homeimage
+{
+    height: 50%;
+    width: 50%;
+    padding-bottom: 5px;
+}
+
+#aboutimage
+{
+    height: 25%;
+    width: 25%;
+    padding-bottom: 5px;
+}
+
+#formMessage
+{
+    width: 33%;
+}
+
+@media screen and (max-width: 767px)
+{
+    #formMessage {
+        width: 100%;
+    }
+}
