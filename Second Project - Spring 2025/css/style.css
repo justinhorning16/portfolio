@@ -1,0 +1,93 @@
+#logo
+{
+    height: 5vh;
+    width: auto;
+}
+
+nav
+{
+    top: 5px;
+}
+
+li.nav-item:hover 
+{
+    color: black; 
+    background-color: white; 
+}
+
+#home
+{
+      padding-top: 10px;
+      background-image: linear-gradient(white, orange);
+}
+
+#nemesis
+{
+    padding-top: 10px;
+    background-image: linear-gradient(orange, red);
+}
+
+#newsletter
+{
+    padding-top: 10px;
+    background-color: #fff8dc;
+}
+.container
+{
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+#jumboMainTitle
+{
+    text-shadow: -1px 1px 1px white;
+}
+
+#jumboNemesisTitle
+{
+    color: black;
+    text-shadow: 0px -2px 4px #fff,
+    0px -2px 10px #FF3,
+    0px -10px 20px #F90,
+    0px -20px 40px #C33;
+}
+
+#jumboMainImage
+{
+    background-image: url("mainbackground.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+#jumboNemesisImage
+{
+    background-image: url("nemesisbackground.jpg");
+    background-position: center center;
+    /* I thought it would better without the background-repeat: no-repeat; so I left it out.
+       I also realize this is basically the exact same layout as the Home Page, but I wanted to keep
+       the feel and flow of the website. */
+}
+
+.desc
+{
+    font-size: 1.5vw;
+    color: black;
+    text-shadow: -2px 2px 3px white;
+}
+
+.carousel-control-prev
+{
+    left: 20%;
+}
+
+.carousel-control-next
+{
+    right: 20%;
+}
+
+.bebas-neue-regular
+{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
