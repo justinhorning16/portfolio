@@ -1,0 +1,205 @@
+header
+{
+    background-color: #2337f3;
+}
+
+nav
+{
+    background-color: #0819b6;
+    margin-top: -8px;
+}
+
+.navbar .nav-link, .navbar .nav-link.active
+{
+    font-size: 150%;
+    color: #ffd78d; 
+    margin-top: -6px;
+}
+
+.navbar-toggler-icon 
+{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke=' rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3e%3c/svg%3e");
+}
+
+.navbar-toggler 
+{
+    border: 1px solid white;
+}
+
+h1
+{
+    color: white;
+    padding-bottom: 8px;
+}
+
+h2, span
+{
+    color: black;
+    text-shadow: 3px 3px 5px #ffb630;
+}
+
+p
+{
+    padding: 5px;
+    font-size: 150%;
+}
+
+ul.list-group.list-group-flush.barlow-condensed-regular
+{
+    font-size: 120%;
+}
+
+footer
+{
+    color: #ffd78d;
+    font-size: 130%;
+    background-color: #0819b6;
+    padding: 10px;
+}
+
+#contactbanner
+{
+    background-image: url("contactus.jpg");
+    background-repeat: repeat;
+}
+
+#contactheading
+{
+    background-color: white;
+    margin-bottom: 0;
+}
+
+.servicesingle
+{
+    display: none;
+}
+
+@media screen and (max-width: 767px)
+{
+    #gameplay
+    {
+        text-align: center;
+        margin-left: -2%;
+    }
+    
+    #servicedouble
+    {
+        display: none;
+    }
+    
+    .servicesingle
+    {
+        display: block;
+    }
+}
+
+
+/* All of the Barlow Condensed Google Fonts 
+   p.s I put them all to test how they look on the page :)*/
+.barlow-condensed-thin {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.barlow-condensed-extralight {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.barlow-condensed-light {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.barlow-condensed-regular {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.barlow-condensed-medium {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.barlow-condensed-semibold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.barlow-condensed-bold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.barlow-condensed-extrabold {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.barlow-condensed-black {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.barlow-condensed-thin-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.barlow-condensed-extralight-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.barlow-condensed-light-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.barlow-condensed-regular-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.barlow-condensed-medium-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.barlow-condensed-semibold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.barlow-condensed-bold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.barlow-condensed-extrabold-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.barlow-condensed-black-italic {
+  font-family: "Barlow Condensed", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
