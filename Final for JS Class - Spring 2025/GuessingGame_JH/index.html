@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+  <title> Guessing Game by Professor Yoda! </title>  
+  
+  <link rel="stylesheet" href="css/guessing.css">
+  <script src="js/script.js"></script>
+</head>
+
+<body onload= "newGame()">
+  <h1> Yoda's Guessing Game </h1>
+  <!--update the form tag to become functional-->
+	<form onsubmit="checkGuess(); return false;">
+    <h2>Enter a number between 1 and 100:</h2>
+	<!--create an id so JS can do something with this guess-->
+    <input type="text" id="guess" size="5">
+	<!--update the button tag to become functional-->
+     <button type="button" onclick="checkGuess()"> Guess! </button> &emsp; <button type="button" id="backgroundbutton" onclick="backgroundChange()"> Change Background Color </button>
+	</form>
+	<!--create an id so JS can do something with this tag/text-->
+	<h3 id="output">Guess a number and press the button.</h3>
+    <audio id="gamewin" src="sounds/gamewin.wav"></audio>
+    
+    <h2 id="scoreboard"> </h2>
+</body></html>
